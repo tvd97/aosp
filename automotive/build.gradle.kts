@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "vi.com.warning.trafic"
+    namespace = "vi.com.warning.traffic"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "vi.com.warning.trafic"
+        applicationId = "vi.com.warning.traffic"
         minSdk = 28
         targetSdk = 36
         versionCode = 1

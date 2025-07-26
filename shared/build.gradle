@@ -3,8 +3,8 @@ plugins {
     id 'org.jetbrains.kotlin.android'
 }
 android {
-    namespace 'vi.com.warning.trafic.shared'
-    compileSdkVersion "android-36.2"
+    namespace 'vi.com.warning.traffic.shared'
+    compileSdk 36
 
     defaultConfig {
         minSdkVersion 28
@@ -13,12 +13,13 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_11
-        targetCompatibility JavaVersion.VERSION_11
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = '11'
+        jvmTarget = '17'
     }
+    buildToolsVersion '36.0.0'
 }
 dependencies {
     implementation libs.androidx.media

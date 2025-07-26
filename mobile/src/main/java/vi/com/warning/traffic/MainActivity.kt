@@ -1,4 +1,4 @@
-package vi.com.warning.trafic
+package vi.com.warning.traffic
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge

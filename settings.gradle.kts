@@ -19,7 +19,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Warning Trafic"
+rootProject.name = "Warning Traffic"
 include(":mobile")
 include(":automotive")
 include(":shared")

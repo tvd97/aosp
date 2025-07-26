@@ -1,4 +1,4 @@
-package vi.com.warning.trafic.shared
+package vi.com.warning.traffic.shared
 
 import android.os.Bundle
 import android.support.v4.media.MediaBrowserCompat.MediaItem

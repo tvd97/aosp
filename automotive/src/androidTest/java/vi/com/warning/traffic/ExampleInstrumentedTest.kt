@@ -1,4 +1,4 @@
-package vi.com.warning.trafic
+package vi.com.warning.traffic
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
